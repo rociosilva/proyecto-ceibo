@@ -1,0 +1,38 @@
+{
+  "name": "pre-entrega-4",
+  "version": "1.0.0",
+  "description": "proyecto-ceibo-dw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rociosilva/proyecto-ceibo.git"
+  },
+  "keywords": [
+    "productos",
+    "artesanales",
+    "almohadones",
+    "velas",
+    "de",
+    "cera",
+    "de",
+    "soja",
+    "espejos",
+    "de",
+    "algodón",
+    "espejos",
+    "de",
+    "yute",
+    "buenos",
+    "aires",
+    "nuñez."
+  ],
+  "author": "Rocio Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rociosilva/proyecto-ceibo/issues"
+  },
+  "homepage": "https://github.com/rociosilva/proyecto-ceibo#readme"
+}
