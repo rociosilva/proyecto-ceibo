@@ -13,7 +13,242 @@
 
 header { 
     background-image: $bg-header-menu;
-    .menu{
-        background-image: $bg-header-menu;
-    } 
 }
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-color {
+    background-color: $background-section;
+  }
+  
+  header {
+    background-image: linear-gradient(to bottom, #BEA6A0, lavender);
+    font-family: $titulos;
+  }
+
+ 
+  .inicio {
+    background-attachment: fixed;
+    background-image:url(.../Multimedia/Imagenes/box-regalo.jpg);
+    border: 10px solid rgb(228, 205, 205);
+    color: $texto-secundario;
+    text-align: center;
+    font-family: $texto;
+    font-size: $font-size (1);
+    font-weight: 100;
+    margin: $margin;
+    padding: $padding;
+  }
+  
+  /* Aplicando Grid a una sección mi página */
+  .tienda {
+    background-color: $background-section1;
+    margin: $margin;
+    padding: $padding;
+  }
+  
+  h1 {
+    color: beige;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 150%;
+    font-family: $texto;
+    margin: $margin;
+  }
+  
+  .grid-1 {
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-gap: 1rem;
+    grid-auto-flow: row dense;
+  }
+  
+  @media all and (min-width: 320px) {
+    .grid-gallery {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 768px) {
+    .grid-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 1024px) {
+    .grid-1 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .grid-1_item:nth-child(11n+1) {
+    grid-column: span 1;
+  }
+  
+  .grid-1_item:nth-child(11n+4) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .grid-1_item:nth-child(11n+6) {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  
+  .grid-1_item:nth-child(11n+7) {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .grid-1_item:nth-child(11n+8) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .grid-1_item:nth-child(11n+9) {
+    grid-row: span 3;
+  }
+  
+  .grid-1_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /*Fin de Grid*/
+  
+  /*Aplicando Flexbox*/
+  .como-comprar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    flex-grow: inherit;
+    justify-content: center;
+    background-color: peachpuff;
+    color: $texto-principal;
+    font-family: $texto;
+    font-weight: 100;
+    line-height: 5;
+    margin: $margin;
+    padding: $padding;
+  }
+  
+  .nosotras {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    flex-grow: inherit;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url(.../Multimedia/Imagenes/nosotras-ceibo.png);
+    border: 10px solid rgb(228, 205, 205);
+    color: black;
+    text-align: center;
+    font-family: $texto;
+    font-weight: 100;
+    line-height: 5;
+    margin: $margin;
+    padding: $padding;
+  }
+  
+  .nos {
+    background-color: $background-section1;
+  }
+  
+  .inspiraciones {
+    background-color: peachpuff;
+    color: $texto-principal;
+    text-align: center;
+    font-family: $texto;
+    font-weight: 100;
+    line-height: 5;
+    margin: $margin;
+    
+  }
+  
+  .inferior-footer {
+    display: flex;
+    justify-content: center;
+    background-color: $background-footer;
+  }
+  
+  .logo {
+    height: 8%;
+    width: 4%;
+  }
+  
+  /*Contacto.HTML*/
+  .titulo-formulario {
+    color: chocolate;
+    background-color: lavender;
+    font-family: $texto;
+    font-size: large;
+    text-align: center;
+    font-weight: 75%;
+    margin: $margin;
+    padding: $padding;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .formulario {
+    display: block;
+    margin: 0 auto;
+    width: 510px;
+    background-color: lavender;
+    color: #666666;
+    font-family: $titulos;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 400px;
+    font-family: $titulos;
+  }
+  
+  /*TRANSICIÓN FOCUS*/
+  input {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+  }
+  
+  input:focus {
+    width: 200px;
+    font-size: 24px;
+  }
+  
+  /*FIN DE TRANSICIÓN FOCUS*/
+  
+  input,
+  textarea {
+    width: 380px;
+    height: 27px;
+    background-color: lavender;
+    border: 2px solid #f6f6f6;
+    padding: $padding;
+    margin-top: 5px;
+    font-size: 8px;
+    color: #ffffff;
+  }
+  
+  textarea {
+    height: 180px;
+  }
+  
+  #submit {
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /*Fin de contacto.html*/
+  
