@@ -1,0 +1,19 @@
+@import 'estilos/colores';
+@import 'estilos/fuentes'; 
+@import 'estilos/padding-margin';
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'funciones/mediasqueries';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+    background-image: $bg-header-menu;
+    .menu{
+        background-image: $bg-header-menu;
+    } 
+}

@@ -1,0 +1,27 @@
+@import "../Estilos/padding";
+@import "../Estilos/fuentes";
+@import "../Estilos/colores";
+
+@mixin tamaño-icono ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+footer {
+    background-color: $background-footer;
+    color: $footer;
+    font-family:$texto-principal;
+}
+
+ .inferior-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $padding;
+    }
+    
+    .logo {
+        margin: 20px;
+        @include tamaño-icono(35px, 35px)
+    }
+
