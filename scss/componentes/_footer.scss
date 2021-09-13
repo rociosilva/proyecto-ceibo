@@ -1,27 +1,15 @@
-@import "../Estilos/padding";
-@import "../Estilos/fuentes";
-@import "../Estilos/colores";
+@import "../estilos/fuentes";
+@import "../estilos/colores";
 
-@mixin tamaño-icono ($ancho, $alto) {
-    width: $ancho;
-    height: $alto;
-}
 
 footer {
-    background-color: $background-footer;
-    color: $footer;
-    font-family:$texto-principal;
+   background-color: $background-footer;
+   font-family: $texto-principal;
+   display: flex;
+   text-align: end;
 }
 
- .inferior-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: $padding;
-    }
-    
-    .logo {
-        margin: 20px;
-        @include tamaño-icono(35px, 35px)
-    }
-
+.logo {
+   height: 12%;
+   width: 6%;
+}

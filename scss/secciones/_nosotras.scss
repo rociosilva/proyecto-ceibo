@@ -1,0 +1,24 @@
+@import '../estilos/colores';
+@import '../estilos/fuentes';
+@import '../funciones/display';
+
+.nosotras {
+    background-attachment: fixed;
+    background-image: url(../Multimedia/Imagenes/nosotras-ceibo-1.jpg);
+    border: 10px solid $background-section1;
+    margin: 5%;
+    padding: 10%;
+    color: $texto-secundario;
+    font-family: $texto;
+    text-align: center;
+    line-height: 2;
+    font-size: 95%;
+}
+.nos {
+    background-color:$background-section1;
+}
+
+.nos:hover {
+    background-color: $background-section;
+    transition: height 2s;
+}

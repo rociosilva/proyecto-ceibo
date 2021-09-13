@@ -1,0 +1,19 @@
+@import '../estilos/colores';
+@import '../estilos/fuentes';
+
+.como-comprar {
+    background-color: $background-section;
+    color: $texto-principal;
+    font-family: $texto;
+    line-height: 2;
+    margin: 5%;
+    padding: 7%;
+}
+
+
+.accordion-button {
+    background-color: $background-section1;
+}
+.accordion-item {
+    background-color: $background-section;
+}
