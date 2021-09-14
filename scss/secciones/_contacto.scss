@@ -1,0 +1,74 @@
+@import '../estilos/colores';
+@import '../estilos/fuentes';
+
+.titulo-formulario {
+    color: $texto-principal;
+    background-color: $background-footer;
+    font-family: $texto;
+    font-size: large;
+    text-align: center;
+    font-weight: 75%;
+    margin: 5%;
+    padding: 10%;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.formulario {
+    display: block;
+    margin: 0 auto;
+    width: 510px;
+    background-color: $background-footer;
+    color: #666666;
+    font-family: $titulos;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    font-family: $titulos;
+}
+
+/*TRANSICIÓN FOCUS*/
+input {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+
+input:focus {
+    width: 200px;
+    font-size: 24px;
+}
+
+/*FIN DE TRANSICIÓN FOCUS*/
+
+input,
+textarea {
+    width: 380px;
+    height: 27px;
+    background-color: $background-footer;
+    border: 2px solid #f6f6f6;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 8px;
+    color: #ffffff;
+}
+
+textarea {
+    height: 180px;
+}
+
+#submit {
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/*Fin de contacto.html*/

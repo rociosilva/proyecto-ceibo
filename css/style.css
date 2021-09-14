@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
@@ -21,15 +24,77 @@ header {
 }
 
 footer {
+  text-transform: uppercase;
+}
+
+footer .footer__box {
   background-color: lavender;
-  font-family: chocolate;
-  display: flex;
-  text-align: end;
+}
+
+footer .footer__box h3 {
+  font-family: "Uchen", serif;
+  text-align: center;
+  color: brown;
+  font-size: 1em;
+  padding-bottom: 0.8em;
+}
+
+footer .footer__box .footer__box--map ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+footer .footer__box .footer__box--map ul li {
+  display: block;
+  padding-left: 0;
+}
+
+footer .footer__box .footer__box--map ul li a {
+  font-family: "Uchen", serif;
+  color: brown;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  font-size: 0.6em;
+}
+
+footer .footer__box .footer__box--map ul li a:hover {
+  color: brown;
+  text-decoration: none;
+}
+
+footer .footer__box .footer__box--social {
+  text-align: center;
+}
+
+footer .footer__box .footer__box--social .iconify {
+  width: 50px;
+  height: 50px;
+  color: brown;
+  margin: 1em;
+  text-align: center;
+}
+
+footer .footer__box .footer__box--social .iconify:hover {
+  color: brown;
+  text-decoration: none;
+}
+
+footer .footer__box .footer__box--logo {
+  text-align: center;
+}
+
+footer .footer__box .footer__box--logo .img-fluid {
+  width: 70%;
 }
 
 .logo {
-  height: 12%;
-  width: 6%;
+  height: 16%;
+  width: 8%;
+}
+
+.copyrigth-footer {
+  font-family: "Uchen", serif;
+  color: brown;
 }
 
 .inicio {
@@ -155,6 +220,76 @@ footer {
   padding: 2%;
 }
 
+.titulo-formulario {
+  color: chocolate;
+  background-color: lavender;
+  font-family: "Castoro", serif;
+  font-size: large;
+  text-align: center;
+  font-weight: 75%;
+  margin: 5%;
+  padding: 10%;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.formulario {
+  display: block;
+  margin: 0 auto;
+  width: 510px;
+  background-color: lavender;
+  color: #666666;
+  font-family: "Uchen", serif;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  font-family: "Uchen", serif;
+}
+
+/*TRANSICIÓN FOCUS*/
+input {
+  width: 100px;
+  height: 100px;
+  transition: all 2s;
+}
+
+input:focus {
+  width: 200px;
+  font-size: 24px;
+}
+
+/*FIN DE TRANSICIÓN FOCUS*/
+input,
+textarea {
+  width: 380px;
+  height: 27px;
+  background-color: lavender;
+  border: 2px solid #f6f6f6;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 8px;
+  color: #ffffff;
+}
+
+textarea {
+  height: 180px;
+}
+
+#submit {
+  width: 85px;
+  height: 35px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/*Fin de contacto.html*/
 * {
   margin: 0;
   padding: 0;

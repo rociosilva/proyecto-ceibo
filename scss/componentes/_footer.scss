@@ -1,15 +1,66 @@
 @import "../estilos/fuentes";
 @import "../estilos/colores";
 
-
 footer {
-   background-color: $background-footer;
-   font-family: $texto-principal;
-   display: flex;
-   text-align: end;
-}
+   text-transform: uppercase;
+ }
+footer .footer__box {
+  background-color: $background-footer;
+ }
+  footer .footer__box h3 {
+    font-family: $titulos;
+    text-align: center;
+    color: $texto-secundario;
+    font-size: 1em;
+    padding-bottom: 0.8em;
+   }
 
-.logo {
-   height: 12%;
-   width: 6%;
-}
+  footer .footer__box .footer__box--map ul {
+    padding-left: 0;
+    text-align: center; 
+   }
+    footer .footer__box .footer__box--map ul li {
+      display: block;
+      padding-left: 0; 
+   }
+      footer .footer__box .footer__box--map ul li a {
+     font-family: $titulos;
+         color: $texto-secundario;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        font-size: .6em; 
+      }
+        footer .footer__box .footer__box--map ul li a:hover {
+          color: $texto-secundario;
+          text-decoration: none; }
+  footer .footer__box .footer__box--social {
+    text-align: center;
+    }
+    footer .footer__box .footer__box--social .iconify {
+      width: 50px;
+      height: 50px;
+      color: $texto-secundario;
+      margin: 1em;
+      text-align: center; 
+   }
+      footer .footer__box .footer__box--social .iconify:hover {
+        color: $texto-secundario;
+        text-decoration: none; 
+      }
+  footer .footer__box .footer__box--logo {
+    text-align: center; 
+   }
+    footer .footer__box .footer__box--logo .img-fluid {
+      width: 70%;
+  
+   }
+   .logo {
+      height: 16%;
+      width: 8%;
+  }
+
+  .copyrigth-footer {
+     font-family: $titulos;
+     color: $texto-secundario;
+  }
+  
