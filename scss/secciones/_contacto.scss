@@ -33,6 +33,22 @@ form {
     font-family: $titulos;
 }
 
+.wrap{
+    margin: 5%;
+    width: 10%;
+    height: auto;
+
+}
+.sub a{
+    color: $texto-principal;
+    background: $background-section1;
+    text-decoration:none;
+    padding:5px 10px;
+    font-size: 65%;
+    font-family: $titulos;
+    font-weight:bold;
+    }
+    
 /*TRANSICIÓN FOCUS*/
 input {
     width: 100px;

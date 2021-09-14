@@ -253,6 +253,22 @@ form {
   font-family: "Uchen", serif;
 }
 
+.wrap {
+  margin: 5%;
+  width: 10%;
+  height: auto;
+}
+
+.sub a {
+  color: chocolate;
+  background: #e4cdcd;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 65%;
+  font-family: "Uchen", serif;
+  font-weight: bold;
+}
+
 /*TRANSICIÓN FOCUS*/
 input {
   width: 100px;
