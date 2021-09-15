@@ -3,7 +3,6 @@
 
 
 header {
-    background-image: linear-gradient(to bottom, #BEA6A0, lavender);
-    font-family: $titulos;
-    text-align: center;
-  }
+    background-image: $bg-header-menu;
+    font-family: $texto-principal;
+}

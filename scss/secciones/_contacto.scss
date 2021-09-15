@@ -3,7 +3,7 @@
 
 .titulo-formulario {
     color: $texto-principal;
-    background-color: $background-footer;
+    background-image: $bg-header-menu ;
     font-family: $texto;
     font-size: large;
     text-align: center;
@@ -23,7 +23,7 @@ label {
     margin: 0 auto;
     width: 510px;
     background-color: $background-footer;
-    color: #666666;
+    color: $texto-principal;
     font-family: $titulos;
 }
 
@@ -72,7 +72,7 @@ textarea {
     padding: 10px;
     margin-top: 5px;
     font-size: 8px;
-    color: #ffffff;
+    color: $texto-secundario;
 }
 
 textarea {

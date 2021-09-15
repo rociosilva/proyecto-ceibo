@@ -5,15 +5,14 @@
     background-color: $background-section;
     color: $texto-principal;
     font-family: $texto;
-    line-height: 2;
     margin: 5%;
-    padding: 7%;
+    padding: 5%;
 }
 
 
 .accordion-button {
     background-color: $background-section1;
 }
-.accordion-item {
+.accordion-body {
     background-color: $background-section;
 }
